@@ -1,0 +1,620 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    
+}
+
+img{
+    vertical-align: middle;
+}
+
+.slike3{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    padding: 0 1.2rem;
+}
+
+.container-r{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+/* =============================
+    nav
+   ============================= */
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    border-bottom: 1px solid #16e4c4;
+    z-index: 2;
+}
+
+nav img{
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.btn-prijavise{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: center; 
+    background: linear-gradient(45deg,#16e4c4 0,#21fa96 100%);
+    color: white;
+    padding: 0.5rem 1.4rem;
+    margin: 1rem 0.6rem 1rem auto;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-items{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+}
+
+.nav-item{
+    padding-top: 2.2rem;
+    height: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    background-color:white;
+}
+
+/* =============================
+    home
+   ============================= */
+
+.home{
+    margin-top: 8rem;
+}
+
+.home-text{
+    width: 70%;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.home h1{
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.home-image{
+    margin-bottom: -0.8rem;
+}
+
+.home-image img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.home-text a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: white;
+    background: linear-gradient(45deg,#16e4c4 0,#21fa96 100%);
+    margin: 1rem 0;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* =============================
+    ishrana
+   ============================= */
+
+.ishrana{
+    background-color: #f3f3f4;
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
+}
+
+.ishrana-naslov p{
+    border-left: 20px solid #16e4c4;
+    padding-left: 1rem;
+    font-style: italic;
+    margin-top: 1.8rem;
+}
+
+.ishrana-item{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.ishrana-item h3{
+    font-size: 1.2rem;
+}
+
+.ishrana-item p{
+    font-size: 0.9rem;
+}
+
+/* =============================
+    plan
+   ============================= */
+
+.plan{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.plan-item{
+    text-align: center;
+}
+
+.plan-item h2{
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(45deg,#16e4c4 0,#21fa96 100%);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.6rem;
+}
+
+
+/* =============================
+    blog
+   ============================= */
+
+.blog-naslov-background{
+    background: url("blog-bg.png");
+}
+
+.blog-naslov{
+    padding-top:2rem;
+}
+
+.blog-naslov a{
+    color: #16e4c4;
+}
+
+.blog-slika{
+    margin-top: 3rem;
+    max-width: 30rem;
+    margin: 2rem auto;
+}
+
+.blog-slika img{
+    display: block;
+    margin: 0 auto;
+}
+
+.blog-slika a{
+    display: inline-block;
+}
+
+.saznajvise{
+    margin-top: 2rem;
+    color: #16e4c4;
+}
+
+.nodeco{
+    text-decoration:none;
+    color: black;
+    margin-top: 1rem;
+}
+
+.blog{
+    padding-bottom: 4rem;
+}
+
+/* =============================
+    naruci plan
+   ============================= */
+
+.naruciplan{
+    padding:2.5rem 0;
+    background:linear-gradient(45deg,#16e4c4 0,#21fa96 100%);
+    text-align: center;
+}
+
+.naruciplan h1{
+    color:white;
+}
+
+.naruciplan a{
+    background-color: white;
+    padding: 0.8rem 3.2rem;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #16e4c4;
+    margin-top: 1.6rem;
+    text-transform: uppercase;
+}
+
+/* =============================
+    footer
+   ============================= */
+
+.footer{
+    padding-top:3rem;
+    padding-bottom: 0.1rem;
+    background-color: #0e1023;
+}
+
+.footer-social img {
+    height: 2rem;
+    width: rem;
+    margin-right: 1rem;
+}
+
+.footer-social p{
+    color:white;
+}
+
+.footer-slika p{
+    color: white;
+}
+
+.footer-logo{
+    max-width: 100%;
+    filter: brightness(0) invert(1);
+}
+
+.footer-linkovi a{
+    display: inline-block;
+    font-size: 0.75rem;
+    color: rgba(255,255,255,.6);
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+    line-height: 1.9;
+}
+
+.footer-linkovi li{
+    list-style-type: none;
+}
+
+.footer-linkovi h4{
+    color:white
+}
+
+.footer-kontakt{
+    color: white;
+}
+
+.footer-kontakt a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255,255,255,.6);
+    margin-bottom: 3rem;
+}
+
+.footer-c{
+    text-align: center;
+    border-top: 0.5px solid rgba(255,255,255,.6);
+}
+
+.footer-c p{
+    color: rgba(255,255,255,.6);
+    font-size: 0.9rem;
+}
+
+/* =============================
+    hover
+   ============================= */
+
+.hover:hover{
+    opacity: 0.7;
+}
+
+.nav-item:hover{
+    opacity: 0.6;
+}
+
+/* popravi dugme */
+
+/* =============================
+    media queries
+   ============================= */
+
+   @media only screen and (max-width:300px){
+    
+    .nav{
+        justify-content: space-between;
+    }
+
+    .btn-prijavise{
+        font-size: 0.8rem;
+        padding: 0.1rem 0.6rem;
+    }
+
+    .nav img{
+        min-width: 50%;
+        margin-right: 0.7rem;
+        margin-left: 0.2rem;
+    }
+   }
+
+@media only screen and (min-width:800px){
+
+    .container{
+        padding: 0 3rem;
+    }
+
+    .home{
+        display: flex;
+        height: 50vh;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+    }
+
+    .home-text{
+        width: 50%;
+        padding-top: 4rem;
+    }
+
+    .home-image{
+        width: 50%;
+    }
+    
+    .home-image img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .ishrana-flex{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6rem;
+    }
+
+    .ishrana-item{
+        width: 30%;
+        text-align: left;
+    }
+
+    .ishrana-item p{
+        font-size: 0.8rem;
+    }
+
+    .ishrana-item img{
+        width: 50%;
+    }
+
+    .plan{
+        padding-bottom: 2rem;
+    }
+
+    .plan-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog-naslov{
+        display: flex;
+        align-items: center;
+    }
+
+    .blog-naslov h1{
+        width: 40%;
+    }
+
+    .blog-naslov a{
+        margin-left: auto;
+    }
+
+    .blog-slika{
+        width: 30%;
+        position: relative;
+        margin:0;
+    }
+
+    .blog-flex{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 7rem;
+    }
+
+    .nodeco{
+        line-height: 1.2;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+
+    .saznajvise{
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        top: 90%;
+    }
+
+    .blog{
+        background: url('blog-bg.png');
+        background-repeat: no-repeat;
+    }
+
+    .naruciplan{
+        padding: 3rem 0;
+    }
+
+    .naruciplan p{
+        max-width: 31rem;
+        margin: 0 auto;
+    }
+
+    .footer-flex{
+        display: flex;
+        padding-bottom: 3rem;
+    }
+
+    .footer-logo{
+        max-width: 70%;
+    }
+
+    .footer-social{
+        margin-left: 2rem;
+    }
+
+    .footer-slika,.footer-linkovi,.footer-kontakt{
+        width: 33%;
+    }
+
+    .footer-linkovi{
+        margin-left: 10rem;
+    }
+}
+
+
+@media only screen and (min-width:1000px){
+    
+    .nav{
+        height: 9vh;
+    }
+
+    .nav-items{
+        display: flex;
+    }
+
+    .nav-item{
+        padding-top: 1.7rem;
+    }
+
+    .home{
+        height: 70vh;
+        margin-bottom: 6rem;
+    }
+
+    .home-text{
+        margin-top: 7rem;
+    }
+
+    .home-text h1{
+        font-size: 2.7rem;
+    }
+
+    .home-text p{
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    .ishrana-naslov{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ishrana-naslov h1{
+        width: 50%;
+    }
+
+    .ishrana-naslov p{
+        text-align: center;
+        max-height: 3rem;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .nav{
+        height: 10vh;
+    }
+
+    .home{
+        height: 80vh;
+    }
+
+    .home-text{
+        margin-top: 7rem;
+    }
+
+    .home-text h1{
+        font-size: 3rem;
+    }
+
+    .home-text p{
+        font-weight: 500;
+        line-height: 1.7;
+        font-size: 1.1rem;
+    }
+
+    .ishrana-flex{
+        padding-bottom: 14rem;
+    }
+
+    .ishrana-item img{
+        width: 40%;
+    }
+
+    .ishrana-item p{
+        font-size: 0.95rem;
+    }
+
+    .plan{
+        padding-bottom: 8rem;
+    }
+
+    .plan-naslov{
+        margin-bottom: 4rem;
+        display: inline-block;
+    }
+
+    .blog-naslov{
+        padding-bottom: 5.5rem;
+    }
+
+    .blog-naslov h1{
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+
+    .nav-item{
+        padding-top: 2.2rem;
+    }
+
+    .home-text{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .home-image img{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 100vh;
+        height: 750px;
+        
+    }
+
+    .home-text a{
+        width: 50%;
+        text-align: center;
+    }
+
+
+}
